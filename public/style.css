@@ -1,0 +1,428 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pre-header{
+    background-color: rgb(95, 181, 188);
+    width: 100%;
+    top: 0;
+    text-align: center;
+}
+.pre-header p{
+    padding: 1% 0;
+    color: rgb(185, 225, 228);
+}
+
+.pre-header a { 
+    color: white;
+    display:inline-block; 
+    text-decoration: none;
+}
+
+.pre-header a:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #019fb6;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.pre-header a:hover:after { 
+    transform: scaleX(1); 
+}
+.nav-link{
+    color: black;
+    display:inline-block; 
+    text-decoration: none;
+}
+.nav-link:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px #019fb6;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+.nav-link:hover:after { 
+    transform: scaleX(1); 
+}
+.nav-link:hover{
+    color: black;
+}
+.navbar-nav{
+    background-color: white;
+}
+.navbar-brand{
+    margin-left: 5%;
+    margin-right: 55%;
+}
+.buy-btn{
+    border: none;
+    background-color: rgb(95, 181, 188);
+    width: 55px;
+    height: 55px;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: .6s;
+    transition-timing-function: ease-in-out;
+}
+.buy-btn:hover{
+    transform: rotate(360deg);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.link{
+    padding-top: 15px;
+}
+.face{
+    margin: 3% 5% 0;
+}
+.face h1{
+    font-size:60px;
+}
+.face p{
+    margin-top: 30px;
+    color: rgb(129, 138, 162);
+}
+.button-for-more-info{
+    border: none;
+    background-color: rgb(95, 181, 188);
+    color: white;
+    margin-top: 10%;
+    padding: 20px 40px;
+    transition: .2s;
+    transition-timing-function: ease-in-out;
+}
+.button-for-more-info:hover{
+    border-radius: 30px;
+    background-color: rgb(74, 142, 148);
+}
+.second{
+    background-color: rgb(246, 251, 252);
+    padding: 0 5%;
+    width: 100%;
+}
+.second img{
+    padding-left: 15%;
+}
+.div-second h1{
+    color: rgb(95, 181, 188);
+    font-size: 50px;
+    margin-top: 30%;
+}
+.div-second p{
+    padding-right: 20%;
+    color: rgb(129, 138, 162);
+}
+.how-it-works{
+    margin: 3% 5%;
+}
+.how-it-works h1{
+    color: rgb(95, 181, 188);
+    text-align: center;
+}
+.how-it-works h3{
+    color: rgb(95, 181, 188);
+}
+.pr img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.pr p{
+    text-align: center;
+}
+.desc{
+    color: rgb(129, 138, 162);
+}
+.menu{
+    background-color: rgb(185, 225, 228);
+    padding: 0 5%;
+    width: 100%;
+}
+.first2-burger{
+    padding: 3% 1%; width: 45%; margin-left: 130px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.first-burger img{
+    float: left; border-radius: 10px;
+}
+.first2-burger img{
+    float: left; border-radius: 10px;
+}
+.menu h1{
+    color: rgb(95, 181, 188);
+    padding-top: 4%;
+    text-align: center;
+}
+.menu-p-1{
+    color: rgb(129, 138, 162);
+    padding: 0 30%;
+    text-align: center;
+}
+.menu-p-2{
+    color: rgb(129, 138, 162);
+    padding-left: 135px;
+}
+.menu-items{
+    justify-content: center;
+    display: flex;
+}
+.active-one{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(95, 181, 188);
+    color: white;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+.see-full-menu{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(95, 181, 188);
+    color: white;
+    padding: 15px 0px;
+    display: block;
+    margin:3% auto;
+    width: 20%;
+}
+.add-cart{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(95, 181, 188);
+    color: white;
+    padding: 5px 20px;
+    margin-right: 20px;
+}
+.non-active-one{
+    border: none;
+    background-color: rgb(185, 225, 228);
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+.non-active-one:hover{
+    background-color: rgb(95, 181, 188);
+    border: none;
+    color: white;
+}
+.first-burger{
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    padding: 3% 1%; 
+    width: 45%;
+}
+.on-order h1{
+    margin-top: 30%;
+    color: rgb(95, 181, 188);
+}
+.img-order{
+    padding-left: 5%;
+}
+.on-order p{
+    color: rgb(129, 138, 162);
+}
+.on-order button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(95, 181, 188);
+    color: white;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.call-content{
+    background-color: rgb(185, 225, 228);
+    padding: 5% 5% 0;
+}
+.call-content h1{
+    padding-right:20%;
+    padding-top: 25%;
+    color: rgb(95, 181, 188);
+}
+.call-content p{
+    color: rgb(129, 138, 162);
+}
+.call-content button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(95, 181, 188);
+    color: white;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.call-content img{
+    padding-left: 10%;
+}
+.pre-end{
+    margin:1% 0;
+}
+.pre-sec{
+    background-color: rgb(95, 181, 188);
+    padding-left: 3%;
+}
+.pre-sec h1{
+    color: white;
+    margin-top: 40%;
+    padding-right:20%
+}
+.pre-sec span{
+    color: rgb(64, 132, 139);
+}
+.pre-sec button{
+    margin-top: 5%;
+    border: none;
+    background-color: white;
+    color: #35B8BE;
+    padding: 10px 20px;
+}
+footer{
+    background-color: rgb(185, 225, 228);
+    padding: 3% 5%;
+}
+footer p{
+    color: rgb(129, 138, 162);
+}
+footer a{
+    color: black;
+    display:inline-block; 
+    text-decoration: none;transition: .2s;
+}
+footer a:after{
+    display:block;
+    content: '';
+    border-bottom: solid 3px #019fb6;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+footer a:hover:after{
+    transform: scaleX(1); 
+}
+footer a:hover{
+    color: #35B8BE;
+}
+@media only screen and (max-width:1418px){
+    .first-burger{
+        width: 100%;
+        margin: 0 0 30px;
+    }
+    .first2-burger{
+        width: 100%;
+        margin-left: 0;
+    } 
+    .menu .item{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:600px){
+    .second img{
+        padding-left: 0%;
+        width: 70%;
+    }
+    .img-order{
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+    .call-content{
+        text-align: center;
+    }
+    .call-content button{
+        margin: 30px ;
+    }
+    .call-content img{
+        width: 90%;
+        display: block;
+        margin: auto;
+        padding: 0;
+    }
+    .pre-sec{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .pre-sec h1{
+        padding: 15% 0;
+        margin: 0;
+    }
+    .pre-sec button{
+        margin-bottom: 5%;
+    }
+}
+@media only screen and (max-width:991px){
+    .pre-sec button{
+        margin-bottom: 5%;
+    }
+    .pre-sec h1{
+        padding: 15% 0;
+        margin: 0;
+    }
+    .face img{
+        display: none;
+    }
+    .second img{
+        display: none;
+    }
+    .second h1{
+        text-align: center;
+    }
+    .second p{
+        text-align: center;
+        padding: 0 10%;
+    }
+    .second button{
+        display: block;
+        margin: 20px auto;
+    }
+    .second img{
+        display: block;
+        padding: 0;
+        margin: 20px auto;
+    }
+    .pre-end img{
+        display: none;
+    }
+    .how-it-works img{
+        width: 80%;
+    }
+    .how-it-works p{
+        font-weight: 900;
+    }
+    .first-burger{
+        padding: 3% 1%; 
+        width: 100%;
+        margin: 0;
+    }
+    .first2-burger{
+        width: 100%;
+        margin: 30px 0 0;
+    }
+    .see-full-menu{
+        width: 40%;
+    }
+    .img-order{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .on-order h1{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .on-order p{
+        text-align: center;
+        padding: 1% 15%;
+    }
+    .on-order button{
+        width: 50%;
+        display: block;
+        margin: 30px auto;
+    }
+    .see-full-menu{
+        margin-top: 40px;
+    }
+}
